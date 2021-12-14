@@ -1,0 +1,158 @@
+.app-layout {
+  height: 100vh;
+  overflow: scroll;
+}
+
+.contact {
+  border-right: none !important;
+  border-left: none !important;
+  border-top: none !important;
+}
+
+.contact:hover {
+  background: #F6F6F6 !important;
+}
+
+.contact:active,
+.contact:focus {
+  background: #EDEDED !important;
+}
+
+.contact img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.contact .info .user {
+  font-size: 16px;
+}
+
+.contact .info .message {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.topbar {
+  border-right: 1px solid #DADADA;
+}
+
+.topbar .profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.topbar .icons p {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.topbar .beta {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.search-bar {
+  background: #F6F6F6;
+}
+
+.search-bar .form-control {
+  height: 45px;
+  font-size: 13px;
+  color: #50585C;
+  border: none;
+  background: #ffffff;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  border-right: 1px solid #EDEDED;
+}
+
+.search-bar .form-control::placeholder {
+  color: #999999;
+}
+
+.search-bar .input-group-text {
+  font-size: 13px;
+  color: #50585C;
+  border: none;
+  background: #ffffff;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  border-left: 1px solid #EDEDED;
+}
+
+.navbar .profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navbar .icons p {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar .user {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sidebar {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar-contact {
+  height: calc(100vh - 133px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.main-content {
+  background: #E5DCD5;
+  height: calc(100vh - 72px);
+}
+
+.message-typer .input-group-text {
+  font-size: 24px;
+  color: #50585C;
+  border: none;
+  background: transparent;
+}
+
+.message-typer .form-control {
+  height: 45px;
+  font-size: 13px;
+  color: #50585C;
+  border: none;
+  background: #ffffff;
+  border-radius: 22px !important;
+  border: 1px solid #EDEDED;
+  text-indent: 10px;
+}
+
+.message-typer .form-control::placeholder {
+  color: #999999;
+}
+
+.message-box {
+  height: calc(100vh - 150px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.message-card {
+  border-radius: 6px;
+  margin-bottom: 15px;
+}

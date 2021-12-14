@@ -1,0 +1,59 @@
+body {
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #50585C;
+}
+
+p {
+  margin: 0;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.bg-ct-white {
+  background: #FFFFFF;
+}
+
+.bg-ct-grey {
+  background: #EDEDED;
+}
+
+.bg-ct-grey-1 {
+  background: #E5DCD5;
+}
+
+.bg-ct-grey-2 {
+  background: #F0F0F0;
+}
+
+.bg-ct-grey-3 {
+  background: #EBEBEB;
+}
+
+.bg-ct-yellow {
+  background: #DBF8C6;
+}
+
+.color-ct-grey {
+  color: #50585C;
+}
+
+.color-ct-grey-1 {
+  color: #8C8C8C;
+}
+
+.color-ct-grey-2 {
+  color: #666666;
+}
+
+.form-control,
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
