@@ -14,6 +14,10 @@ p {
   cursor: pointer;
 }
 
+.noborder {
+  border: none;
+}
+
 .bg-ct-white {
   background: #FFFFFF;
 }
@@ -50,10 +54,19 @@ p {
   color: #666666;
 }
 
+.btn, btn:hover, .btn:active, .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .form-control,
 .form-control:hover,
 .form-control:active,
 .form-control:focus {
   outline: none;
   box-shadow: none;
+}
+
+.dropdown button::after {
+  display: none;
 }

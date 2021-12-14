@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { InputGroup, FormControl } from 'react-bootstrap';
+import { Form, InputGroup, FormControl } from 'react-bootstrap';
 import AppLayout from '../layouts/AppLayout';
 import { messages } from '../../assets/data/message';
 
@@ -62,25 +62,40 @@ const HomeView = () => {
 
       <div className="d-block w-100 align-items-end">
         <div className="message-typer bg-ct-grey-2 px-4 py-3">
-          <InputGroup>
-            <InputGroup.Text className="px-2 cursor">
-              <i className="fas fa-smile-beam"></i>
-            </InputGroup.Text>
-
-            <InputGroup.Text className="px-2 cursor">
-              <i className="fas fa-paperclip"></i>
-            </InputGroup.Text>
-
-            <FormControl placeholder="Type a message" className="mx-3" autoComplete="off" value={message} onChange={({ target }) => setMessage(target.value)} />
-
-            {
-              message ? <InputGroup.Text className="px-2 cursor" onClick={handleAddMessage}>
-                <i className="fas fa-paper-plane"></i>
-              </InputGroup.Text> : <InputGroup.Text className="px-2 cursor">
-                <i className="fas fa-microphone"></i>
+          <Form onSubmit={e => {
+            e.preventDefault();
+            if (message !== '') handleAddMessage();
+          }}>
+            <InputGroup>
+              <InputGroup.Text className="px-1 cursor">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                  <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z" />
+                </svg>
               </InputGroup.Text>
-            }
-          </InputGroup>
+
+              <InputGroup.Text className="px-1 cursor">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+                  <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z" />
+                </svg>
+              </InputGroup.Text>
+
+              <FormControl placeholder="Type a message" className="mx-2" autoComplete="off" value={message} onChange={({ target }) => setMessage(target.value)} />
+
+              {
+                message ? <InputGroup.Text className="px-1 cursor" onClick={handleAddMessage}>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                    <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                  </svg>
+                </InputGroup.Text> : <InputGroup.Text className="px-1 cursor">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+                    <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
+                    <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z" />
+                  </svg>
+                </InputGroup.Text>
+              }
+            </InputGroup>
+          </Form>
         </div>
       </div>
     </AppLayout>
