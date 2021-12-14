@@ -14,7 +14,7 @@ RUN yarn install --production
 COPY . .
 
 # Build the app
-RUN yarn build-prod
+RUN yarn build
 
 # Bundle static assets with nginx
 FROM nginx:1.21.0-alpine as production
