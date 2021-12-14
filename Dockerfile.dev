@@ -1,0 +1,23 @@
+FROM node:14-alpine AS development
+
+ENV NODE_ENV development
+
+# Set working directory
+WORKDIR /app
+
+# Installing dependencies
+COPY package*.json .
+
+RUN yarn install
+
+# Copy app files
+COPY . .
+
+# Build the app
+RUN yarn build
+
+# Expose port
+EXPOSE 3000
+
+# Running the app
+CMD ["yarn", "dev"]

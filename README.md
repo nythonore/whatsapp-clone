@@ -1,6 +1,6 @@
 # Whatsapp Clone UI
 
-This repository contains code for Whatsapp UI in ReactJS and Bootstrap.\
+This repository contains code for WhatsApp UI in ReactJS and Bootstrap.\
 view demo: https://whatsapp.nythonore.me
 
 ![alt text](https://nythonore.me/work/whatsapp.png)
