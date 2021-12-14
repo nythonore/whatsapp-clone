@@ -156,3 +156,15 @@
   border-radius: 6px;
   margin-bottom: 15px;
 }
+
+.contact-check {
+  position: relative;
+  margin-right: 3px;
+  top: -2px;
+}
+
+.message-check {
+  position: relative;
+  margin-left: 3px;
+  top: -2px;
+}
