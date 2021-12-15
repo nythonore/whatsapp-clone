@@ -1,3 +1,8 @@
+.app-layout {
+  height: 100vh;
+  overflow: scroll;
+}
+
 .contact {
   border-right: none !important;
   border-left: none !important;

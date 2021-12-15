@@ -3,9 +3,10 @@
 This repository contains code for WhatsApp UI in ReactJS and Bootstrap.\
 view demo: https://whatsapp.nythonore.me
 
-![alt text](https://nythonore.me/work/whatsapp.png)
+![alt text](https://res.cloudinary.com/elab/image/upload/v1650554146/nythonore/works/jfrc5jcogzwyvzisltrn.png)
 
 ### Prerequisites
+
 Make sure you have already installed Docker Engine. You don’t need to install Nginx or YARN, as both are provided by Docker images.
 
 ```
@@ -34,14 +35,16 @@ $ docker run -p 3000:80 --name whatsapp-prod whatsapp-prod
 Go to [http://localhost:3000](http://localhost:3000)
 
 ### Built With
-* [ReactJS](https://reactjs.org/) - Front-end Framework
-* [React Bootstrap](https://react-bootstrap.github.io/) - CSS Framework
-* [Nginx](https://nginx.org/en/) - Web Server
-* [Docker](https://www.docker.com/) - Containerization
+
+- [ReactJS](https://reactjs.org/) - Front-end Framework
+- [React Bootstrap](https://react-bootstrap.github.io/) - CSS Framework
+- [Nginx](https://nginx.org/en/) - Web Server
+- [Docker](https://www.docker.com/) - Containerization
 
 ### Author
 
 **Honore Niyitegeka** (https://nythonore.me)
 
 ### License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
