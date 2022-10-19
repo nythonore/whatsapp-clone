@@ -13,7 +13,7 @@ const SideBar = () => {
 			<div className='d-flex bg-ct-grey topbar justify-content-between align-items-center p-3'>
 				<div className='d-flex align-items-center'>
 					<Image
-						src='https://res.cloudinary.com/elab/image/upload/v1650554058/nythonore/ynng7faic2c41n6xgnxs.jpg'
+						src='https://nythonore.me/_next/image?url=%2Fnythonore.jpg&w=3840&q=75'
 						alt='Honore Niyitegeka'
 						className='img-fluid mr-4 profile'
 					/>

@@ -3,7 +3,7 @@
 This repository contains code for WhatsApp UI in ReactJS and Bootstrap.\
 view demo: https://whatsapp.nythonore.me
 
-![alt text](https://res.cloudinary.com/elab/image/upload/v1650554146/nythonore/works/jfrc5jcogzwyvzisltrn.png)
+![alt text](https://nythonore.me/_next/image?url=%2Fworks%2Fwhatsapp.png&w=3840&q=75)
 
 ### Prerequisites
 

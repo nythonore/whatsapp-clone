@@ -4,7 +4,7 @@ const Contact = () => {
 	return (
 		<div className='contact d-flex align-items-center border p-3 cursor'>
 			<Image
-				src='https://res.cloudinary.com/elab/image/upload/v1650554058/nythonore/ynng7faic2c41n6xgnxs.jpg'
+				src='https://nythonore.me/_next/image?url=%2Fnythonore.jpg&w=3840&q=75'
 				alt='Honore Niyitegeka'
 				className='img-fluid mr-3'
 			/>
