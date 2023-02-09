@@ -1,72 +1,79 @@
 body {
-  width: 100%;
-  height: auto;
-  font-family: Helvetica;
-  font-size: 14px;
-  color: #50585C;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	font-size: 14px;
+	color: #50585c;
 }
 
 p {
-  margin: 0;
+	margin: 0;
 }
 
 .cursor {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .noborder {
-  border: none;
+	border: none;
 }
 
 .bg-ct-white {
-  background: #FFFFFF;
+	background: #ffffff;
 }
 
 .bg-ct-grey {
-  background: #EDEDED;
+	background: #ededed;
 }
 
 .bg-ct-grey-1 {
-  background: #E5DCD5;
+	background: #e5dcd5;
 }
 
 .bg-ct-grey-2 {
-  background: #F0F0F0;
+	background: #f0f0f0;
 }
 
 .bg-ct-grey-3 {
-  background: #EBEBEB;
+	background: #ebebeb;
 }
 
 .bg-ct-yellow {
-  background: #DBF8C6;
+	background: #dbf8c6;
 }
 
 .color-ct-grey {
-  color: #50585C;
+	color: #50585c;
 }
 
 .color-ct-grey-1 {
-  color: #8C8C8C;
+	color: #8c8c8c;
 }
 
 .color-ct-grey-2 {
-  color: #666666;
+	color: #666666;
 }
 
-.btn, btn:hover, .btn:active, .btn:focus {
-  outline: none;
-  box-shadow: none;
+.btn,
+btn:hover,
+.btn:active,
+.btn:focus {
+	outline: none;
+	box-shadow: none;
 }
 
 .form-control,
 .form-control:hover,
 .form-control:active,
 .form-control:focus {
-  outline: none;
-  box-shadow: none;
+	outline: none;
+	box-shadow: none;
 }
 
 .dropdown button::after {
-  display: none;
+	display: none;
+}
+
+.fit-cover {
+	object-fit: cover;
 }

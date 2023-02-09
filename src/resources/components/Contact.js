@@ -3,16 +3,18 @@ import { Image } from 'react-bootstrap';
 const Contact = () => {
 	return (
 		<div className='contact d-flex align-items-center border p-3 cursor'>
-			<Image
-				src='https://nythonore.me/_next/image?url=%2Fnythonore.jpg&w=3840&q=75'
-				alt='Honore Niyitegeka'
-				className='img-fluid mr-3'
-			/>
+			<div className='mr-3'>
+				<Image
+					src='https://nythonore.netlify.app/_next/image?url=%2Fnythonore.jpg&w=3840&q=75'
+					alt='Honore Niyitegeka'
+					className='img-fluid fit-cover sidebar-icon mr-3'
+				/>
+			</div>
 
 			<div className='info'>
 				<div className='d-flex justify-content-between'>
 					<p className='user'>Honore Niyitegeka</p>
-					<p className='color-ct-grey-1'>11:49 AM</p>
+					<p className='color-ct-grey-1'>11:59 AM</p>
 				</div>
 
 				<p className='message color-ct-grey-2'>

@@ -168,3 +168,8 @@
   margin-left: 3px;
   top: -2px;
 }
+
+.sidebar-icon {
+  min-width: 30px;
+  min-height: 30px;
+}

@@ -3,8 +3,6 @@
 This repository contains code for WhatsApp UI in ReactJS and Bootstrap.\
 view demo: https://whatsapp.nythonore.me
 
-![alt text](https://nythonore.me/_next/image?url=%2Fworks%2Fwhatsapp.png&w=3840&q=75)
-
 ### Prerequisites
 
 Make sure you have already installed Docker Engine. You don’t need to install Nginx or YARN, as both are provided by Docker images.
@@ -43,7 +41,7 @@ Go to [http://localhost:3000](http://localhost:3000)
 
 ### Author
 
-**Honore Niyitegeka** (https://nythonore.me)
+**Honore Niyitegeka** (https://nythonore.netlify.app)
 
 ### License
 

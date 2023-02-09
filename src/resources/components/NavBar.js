@@ -5,9 +5,9 @@ const NavBar = () => {
 		<div className='d-flex bg-ct-grey navbar justify-content-between align-items-center py-3 px-4'>
 			<div className='d-flex align-items-center cursor'>
 				<Image
-					src='https://nythonore.me/_next/image?url=%2Fnythonore.jpg&w=3840&q=75'
+					src='https://nythonore.netlify.app/_next/image?url=%2Fnythonore.jpg&w=3840&q=75'
 					alt='Honore Niyitegeka'
-					className='img-fluid mr-3 profile'
+					className='img-fluid fit-cover mr-3 profile'
 				/>
 				<p className='user'>Honore Niyitegeka</p>
 			</div>

@@ -13,9 +13,9 @@ const SideBar = () => {
 			<div className='d-flex bg-ct-grey topbar justify-content-between align-items-center p-3'>
 				<div className='d-flex align-items-center'>
 					<Image
-						src='https://nythonore.me/_next/image?url=%2Fnythonore.jpg&w=3840&q=75'
+						src='https://nythonore.netlify.app/_next/image?url=%2Fnythonore.jpg&w=3840&q=75'
 						alt='Honore Niyitegeka'
-						className='img-fluid mr-4 profile'
+						className='img-fluid fit-cover mr-4 profile'
 					/>
 					<p className='beta'>BETA</p>
 				</div>
